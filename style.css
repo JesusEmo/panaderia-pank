@@ -1,0 +1,46 @@
+.productos {
+    display: flex;
+    justify-content: center;
+    max-height: 70%;
+    max-width: 70%;
+    flex-wrap: wrap;
+}
+
+.producto {
+    position: relative;
+    height: 270px;
+    width: 300px;
+    background-color: aquamarine;
+    flex-wrap: wrap;
+    margin: 20px auto;
+
+}
+
+.producto img{
+    width: 170px;
+    height: 150px;
+    z-index: 2;
+    position: relative;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.magdalena {
+    z-index: 20;
+    position: relative;
+    background-image: url(/magdalenaNormal.jpeg);
+    width: 170px;
+    height: 150px;
+    background-size: 170px 150px;
+}
+.magdalena:hover{
+    background-image: url(/magdalena.jpg);
+    width: 170px;
+    height: 150px;
+    background-size: 170px 150px;;
+
+}
