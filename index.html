@@ -21,23 +21,29 @@
     </header>
 
     <section class="productos">
-        <div class="producto" onclick="productos()" id="sanguchito">
+        <div class="producto">
             <span class="producto-titulo">sanguchito galactico</span>
             <figure>
                 <img src="/sanguchito.png" alt="">
             </figure>
             <span class="producto-descripcion">es tan bueno y rico que los drogadictos reemplazaron las pastillas por el
                 Sanguchito Galactico para tener viajes astrales sin necesidad de drogas</span>
-            <span class="producto-fecha" onclick="sss()"></span>
+            <span>fecha del producto con js</span>
+            <button id="comprar-boton" onclick="comprar('sanguchito')"> comprar</button>
+            <p id="precioParrafo"></p>
+           <button>añadir al carrito</button>
         </div>
 
-        <div class="producto" onclick="productos()" id="pan">
+        <div class="producto" onclick="productos()">
             <span class="producto-titulo">pan</span>
             <figure>
                 <img src="/pan.jpg" alt="">
             </figure>
             <span class="producto-descripcion">pan (pan)</span>
             <span class="producto-fecha"></span>
+            <button id="boton-comprar" onclick="comprar(pan)"> comprar</button>
+            <button onclick="añadirCarrito(pan)">añadir al carrito</button>
+            <p id="siEstaEnCarrito"></p>
         </div>
 
         <div class="producto" onclick="productos()" id="magdalena">
@@ -46,6 +52,9 @@
             </figure>
             <span class="producto-descripcion">PRECAUCION MAGDALENA FURIOSA (PUM EXPLOTA)</span>
             <span class="producto-fecha" onclick="sss()"></span>
+            <button id="boton-comprar" onclick="comprar(magdalena)"> comprar</button>
+            <button onclick="añadirCarrito(magdalena)">añadir al carrito</button>
+            <p id="siEstaEnCarrito"></p>
         </div>
     </section>
 </body>
