@@ -1,3 +1,51 @@
+/* elements */
+body{
+    margin: 0px;
+    background-color: bisque;
+}
+button{
+    border-radius: 5px;
+    border: 2px;
+}
+button:hover{
+    cursor: pointer;
+}
+section {
+    margin: auto;
+}
+header{
+
+}
+div{
+
+}
+h1{
+}
+/* elements      _________end */
+.header{
+    display: flex;
+    justify-content: center;
+    color:rgb(59, 160, 142);
+}
+
+.titulo {
+    flex-wrap: wrap;
+    padding: 20px;
+    text-align: center;
+    width: 500px;
+    position: relative;
+    top: 0;     
+}
+
+.back-black{
+    border: 10px;
+    margin: 0px;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    border-top: 100px solid black;
+    position: absolute ;
+}
+
 .productos {
     display: flex;
     justify-content: center;
@@ -7,12 +55,16 @@
 }
 
 .producto {
-    height: 270px;
-    width: 300px;
-    background-color: aquamarine;
+    height: auto;
+    width: 250px;
+    background-color: rgb(243, 202, 120);
     flex-wrap: wrap;
     margin: 50px 10px;
-
+    padding: 10px 10px;
+    text-align: center;
+}
+.boton-producto{
+    margin-top: 100%;
 }
 
 .producto img{
@@ -20,19 +72,7 @@
     height: 150px;
 }
 
-.titulo {
-    justify-items:center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 20px;
-}
-.titulo h1 h4{
-    justify-items: center;
-}
-
 .magdalena {
-    z-index: 20;
-    position: relative;
     background-image: url(/magdalenaNormal.jpeg);
     width: 170px;
     height: 150px;
@@ -43,5 +83,16 @@
     width: 170px;
     height: 150px;
     background-size: 170px 150px;;
-
+}
+.pan{
+    background-image: url(/pan.jpg);
+    width: 170px;
+    height: 150px;
+    background-size: 170px 150px;
+}
+.pan:hover{
+    background-image: url(/pan-muerto.jpg);
+    width: 170px;
+    height: 150px;
+    background-size: 170px 150px;;
 }

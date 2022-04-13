@@ -11,12 +11,14 @@
 
 </head>
 
-
+<script src="/jsjsjsjsj.js"></script>
 <body>
     <header>
-        <div class="titulo">
-            <h1>Pank lml</h1>
-            <h4>la panaderia mas violenta de buenos aires</h4>
+        <div class="header">
+            <div class="titulo color-white back-black">
+                <h1>Pank lml</h1>
+                <h4>la panaderia mas violenta de buenos aires</h4>
+            </div>
         </div>
     </header>
 
@@ -28,22 +30,25 @@
             </figure>
             <span class="producto-descripcion">es tan bueno y rico que los drogadictos reemplazaron las pastillas por el
                 Sanguchito Galactico para tener viajes astrales sin necesidad de drogas</span>
-            <span>fecha del producto con js</span>
-            <button id="comprar-boton" onclick="comprar('sanguchito')"> comprar</button>
-            <p id="precioParrafo"></p>
-           <button>añadir al carrito</button>
+            <div>
+                <p>fecha del producto con js</p>
+                <button class="boton-producto" id="comprar-boton" onclick="comprar('sanguchito')"> comprar</button>
+                <p id="precioParrafo">$$$$</p>
+                <button class="boton-producto">añadir al carrito</button>
+            </div>
         </div>
 
         <div class="producto" onclick="productos()">
             <span class="producto-titulo">pan</span>
-            <figure>
-                <img src="/pan.jpg" alt="">
+            <figure class="pan">
             </figure>
             <span class="producto-descripcion">pan (pan)</span>
-            <span class="producto-fecha"></span>
-            <button id="boton-comprar" onclick="comprar(pan)"> comprar</button>
-            <button onclick="añadirCarrito(pan)">añadir al carrito</button>
-            <p id="siEstaEnCarrito"></p>
+            <div>
+                <p>fecha del producto con js</p>
+                <button class="boton-producto" id="boton-comprar" onclick="comprar(pan)"> comprar</button>
+                <p id="precioParrafo">$$$$</p>
+                <button class="boton-producto" onclick="añadirCarrito(pan)">añadir al carrito</button>
+            </div>
         </div>
 
         <div class="producto" onclick="productos()" id="magdalena">
@@ -51,10 +56,12 @@
             <figure class="magdalena">
             </figure>
             <span class="producto-descripcion">PRECAUCION MAGDALENA FURIOSA (PUM EXPLOTA)</span>
-            <span class="producto-fecha" onclick="sss()"></span>
-            <button id="boton-comprar" onclick="comprar(magdalena)"> comprar</button>
-            <button onclick="añadirCarrito(magdalena)">añadir al carrito</button>
-            <p id="siEstaEnCarrito"></p>
+            <div>
+                <p>fecha del producto con js</p>
+                <button class="boton-producto" id="boton-comprar" onclick="comprar(magdalena)"> comprar</button>
+                <p id="precioParrafo">$$$$</p>
+                <button class="boton-producto" onclick="añadirCarrito(magdalena)">añadir al carrito</button>
+            </div>
         </div>
     </section>
 </body>
