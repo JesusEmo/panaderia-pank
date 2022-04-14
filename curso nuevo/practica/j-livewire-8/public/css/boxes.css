@@ -1,0 +1,106 @@
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    margin: 0 auto;
+    align-items: center;
+    
+}
+
+.back-img {
+    max-height: 400px;
+    position:static;
+    background-image: url(/practica/j-livewire-8/public/Img/bandas/sodastereo.jpg);
+    z-index: 200;   
+}
+
+
+.nav2 {
+    display: flex;
+    justify-content: end;
+    width: 90vw;
+    margin: auto  auto 0px;    
+}
+
+.nav-item {
+    margin:0 20px;
+    font-size: 1.02rem;
+    font-weight: bold;
+    cursor:pointer;
+    user-select: none;
+}
+
+.nav-item:hover {
+    color:rgb(0, 99, 0);
+}
+
+.nav-item:active{
+    color: rgb(68, 78, 52);
+}
+
+.nav-desktop {
+    display: flex;
+    justify-content: end;
+}
+
+.master-box-band {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 100px auto;
+
+}
+
+.box-band {
+    width: 30%;
+    max-width: 300px;
+    margin: 20px auto;
+    height: auto;
+    /* background: linear-gradient(0deg, rgba(45,47,47,1) 0%, rgba(38,38,42,1) 31%, rgba(0,0,0,1) 100%); */
+    padding: 20px;
+    -webkit-box-shadow: 1px 8px 15px -1px #000000;
+    box-shadow: 1px 8px 15px -1px #000000;
+    animation-name: anima;
+    animation-duration: 2s;
+}
+
+@keyframes anima {
+    0% {
+        transform: scale(0)
+    }
+    50% {
+        transform: scale(1.5)
+    }
+    
+    100% {  
+        transform: scale(1)
+    }
+  }
+
+.bandimg-box-band {
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    -webkit-box-shadow: 1px 8px 15px -1px #000000;
+    box-shadow: 1px 8px 15px -1px #000000;
+
+
+}
+
+.img-box-band {
+    width: 100%;
+}
+
+@media (max-width:600px) {
+
+    .box-band {
+        align-items: center ;
+        width: 90%;
+        max-width: 70%;
+
+        
+    }
+
+}
+

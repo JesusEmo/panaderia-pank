@@ -1,0 +1,26 @@
+.ellipsis {
+    overflow: hidden;
+}
+
+.description-box-band {
+    max-height: 58px;
+    text-align: left;
+    font-size: 0.9em;
+}
+
+.title-box-band {
+    color: white;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 15px 0px;
+}
+
+.description-box-band::after{
+    content: "continuar leyendo";
+    margin-right: 0;
+    
+
+}
+content::after:hover{
+    color: aliceblue;
+}

@@ -1,0 +1,26 @@
+.w-h-auto{
+    width: auto;
+    height: auto;
+}
+.calc-box{
+    margin: auto 40px;
+}
+
+.mb-0{
+    margin-bottom: 0;
+    top: 100%;
+}
+.producto{
+    max-height: 200px;
+    max-width: 300px;
+    padding: 20px;
+    display:flex;
+    background-color: black;
+    justify-content: center;
+    
+    
+}
+.producto figure{
+    height: auto;
+    width: auto;
+}

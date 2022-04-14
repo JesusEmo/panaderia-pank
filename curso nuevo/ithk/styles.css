@@ -1,0 +1,89 @@
+/* si el estilo empieza con mayuscula es exclusivo de index */
+
+
+/* GENERAL */
+
+
+/* FUENTES */
+
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* TEXTOS */
+
+
+
+.watermark {
+    max-width: 70px;
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    background: rgba(255, 255, 255, 0.205);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.377) 85rgb(255, 255, 255)55);
+}
+
+
+
+/* general end */
+
+
+/* BODY */
+body {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(8,137,255,1) 76%, rgba(0,95,255,1) 85%);
+}
+
+
+/* HEADER */
+
+.header {
+    position: relative;
+    height: 10vh;
+    display: flex;
+    justify-content: start;
+    background-color: rgb(0, 63, 235);
+    background: linear-gradient(0deg, rgb(0, 89, 255) 0%, rgb(0, 26, 170) 76%, rgb(0, 55, 151) 85%);
+    border-bottom: rgb(116, 116, 116) 2px solid;
+
+}
+
+
+.text-white {
+    color: white;
+
+}
+
+.border-radius-6 {
+    border-radius: 6px;
+}
+
+.title {
+    color: #000000;
+    font-size: 6vh;
+    background: rgba(255, 255, 255, 0.281);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.479) 85%, rgba(255, 255, 255, 0.596) 90%);
+    border-radius: 6px;
+    justify-self:auto;
+}
+
+
+
+/* header end */
+
+
+/* seccion bandas */
+
+
+/* seccion bandas end */
+
+
+
+
+/* FOOTER */
+
+
+/* body end */
+
+/* GENERAL 2 */

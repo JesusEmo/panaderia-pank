@@ -1,0 +1,142 @@
+/* si el estilo empieza con mayuscula es exclusivo de index */
+
+
+/* GENERAL */
+
+
+/* FUENTES */
+
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* TEXTOS */
+
+.back-white {
+    background-color: white;
+}
+
+.br6 {
+    border-radius: 6px;
+}
+
+.br5 {
+    border-radius: 5px;
+}
+.br4 {
+    border-radius: 4px;
+}
+
+.br8 {
+    border-radius: 8px;
+}
+
+.color-black {
+    color: black;
+}
+
+.margin-10 {
+    margin: 10px;
+}
+
+.watermark {
+    max-width: 70px;
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    background: rgba(255, 255, 255, 0.205);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.377) 85rgb(255, 255, 255)55);
+}
+
+
+
+/* general end */
+
+
+/* BODY */
+body {
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(29,29,29,1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/* HEADER */
+
+.header {
+    position: relative;
+    height: 10vh;
+    display: flex;
+    justify-content: start;
+    background-color: black;
+    z-index: 20;
+}
+
+.header-type-invisible {
+    height: 70  px;
+
+    display: flex;
+    justify-self: end;
+    background: red;
+    position: fixed;
+    z-index: 20;
+}
+
+.sidebar {
+    height: 100%;
+    width: 200px;
+    background-color: black;
+    position: fixed;
+    z-index: 999;
+    
+}
+
+.b-black {
+    color:black;
+}
+
+.body-r{
+    margin: 0 0 0 400px;
+}
+
+.body-divided{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.text-white {
+    color: white;
+
+}
+
+.border-radius-6 {
+    border-radius: 6px;
+}
+
+.title {
+    color: #000000;
+    font-size: 6vh;
+    background: rgba(255, 255, 255, 0.281);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.479) 85%, rgba(255, 255, 255, 0.596) 90%);
+    border-radius: 6px;
+}
+
+/* header end */
+
+
+/* seccion bandas */
+
+
+/* seccion bandas end */
+
+
+
+
+/* FOOTER */
+
+
+/* body end */
+
+/* GENERAL 2 */

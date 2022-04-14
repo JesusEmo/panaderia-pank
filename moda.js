@@ -1,23 +1,23 @@
-const lista1 = [
-    1,
-    3,
-    4,
-    5,
-    5,
-    2,
-    2,
-    5,
-    2,
-    5,
-    5,
-    5,
-    3,
-    1,
-    3,
-    3,
-    3
-];
-const lista1Count = {};
+// const lista1 = [
+//     1,
+//     3,
+//     4,
+//     5,
+//     5,
+//     2,
+//     2,
+//     5,
+//     2,
+//     5,
+//     5,
+//     5,
+//     3,
+//     1,
+//     3,
+//     3,
+//     3
+// ];
+// const lista1Count = {};
 
 // lista1.map(
 //     function (elemento)
@@ -25,29 +25,33 @@ const lista1Count = {};
 // )
 
 
-const lista = [
-    2,
-    2,
-    2,
-    3,
-    1,
-    3213,
-    42,
-    412,
-    21,
-];
+const lista = [2, 412, 21];
 
-let listaSuma = 0;
+var sumalista = 0;
+console.log(lista.length);
+console.log(sumalista);
+for (let i = 0; i < lista.length; i++){
+    sumalista += lista[i];
+    total = sumalista / lista.length;
+    total = Math.round(total);
 
-function calcularPromedio(lista){
-for( let i = 0; i < lista.length; i++) {
-    listaSuma = listaSuma + lista[i];
-    return listaSuma;
-}
+    console.log(total);
+    let p = document.getElementById("RLista");
+    p.innerText = `${total}`;
 }
 
-const p = document.getElementById("RLista");
-p.innerText() = `${listaSuma}`
 
 
 
+
+
+
+
+// const descuento = function(producto, id){
+//     const p = document.getElementById("descuento");
+//     let precioProducto = productos2[producto]
+//     if(id>4){
+//     precioProducto *= 0.50;
+//     }
+// p.innerText = `precio total ${precioProducto}`;
+// }

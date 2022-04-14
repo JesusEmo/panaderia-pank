@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css -->
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./boxes.css">
+    <link rel="stylesheet" href="./grammar.css">
+
+    <link rel="stylesheet" href="./estails.css">
+    
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- titulo -->
+    <link rel="shortcut icon" href="Img/favicon/lml.ico">
+    <title>ITHK</title>
+</head>
+
+<script src="/ithk/js1.js"></script>
+
+<body>
+    <header class="header">
+        <div class="nav">
+            <div class="title"> 
+                ITHK
+            </div>
+            <ul class="nav-desktop text-white">
+                <li class="nav-item">Iniciar sesión</li>   
+                <li class="nav-item">Ayuda</li>
+            </ul> 
+        </div>
+    </header>
+
+    <section>
+        <div class="master-box-band">
+        <form action="">
+            <div class="box-band border-radius-6 w-h-auto calc-box">
+                <h4 class="title-box-band">cuadrado</h4>
+                <label class="ellipsis description-box-band text-white" for="CCu">               
+                </label>
+                <input type="number" form="" name="" id="CCu">
+                <button type="button" onclick="calcularCuP()" >
+                    Caluclar perimetro
+                </button>
+                <button type="button" onclick="calcularCuA()">
+                    calcular area
+                </button>
+            </div>
+        </form>
+
+        <form action="" class="calc-box">
+            <div class="box-band border-radius-6 w-h-auto calc-box">
+                <h4 class="title-box-band">calcular cuadrado</h4>
+                <label class="ellipsis description-box-band text-white" for="CT">
+                    calcular triangulo
+                </label> 
+                <input type="number" name="" id="CT">
+
+                <button type="button" onclick="calcularTP()">
+                    Caluclar area
+                </button>
+
+                <button type="button" onclick="calcularTA()">
+                    Caluclar perimetro
+                </button>
+            </div>
+
+        </form>
+
+        <form action="">
+            <div class="box-band border-radius-6 w-h-auto calc-box">
+                <h4 class="title-box-band">Circulo</h4>
+                <label class="ellipsis description-box-band text-white" for="circulo">    
+                    calcular diametro                
+                </label>
+                <input type="number" name="" id="circulo">
+                <button type="button" onclick="calculodiametro()">
+                    Caluclar diametro
+                </button>
+                <button type="button" onclick="calcradio()">
+                    calc radio
+                </button>
+
+            </div>
+        </form>
+        </div>
+
+    </section>
+
+
+
+
+</body>
