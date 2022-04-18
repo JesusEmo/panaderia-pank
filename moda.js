@@ -25,26 +25,45 @@
 // )
 
 
-const lista = [2, 412, 21];
+// const lista = [2, 412, 21];
 
-var sumalista = 0;
-console.log(lista.length);
-console.log(sumalista);
-for (let i = 0; i < lista.length; i++){
-    sumalista += lista[i];
-    total = sumalista / lista.length;
-    total = Math.round(total);
+// var sumalista = 0;
+// console.log(lista.length);
+// console.log(sumalista);
+// for (let i = 0; i < lista.length; i++){
+//     sumalista += lista[i];
+//     total = sumalista / lista.length;
+//     total = Math.round(total);
 
-    console.log(total);
-    let p = document.getElementById("RLista");
-    p.innerText = `${total}`;
+//     console.log(total);
+//     let p = document.getElementById("RLista");
+//     p.innerText = `${total}`;
+// }
+
+
+
+
+let sumalista= 0;
+const lista = [1, 590, 2, 3, 1, 4, 5,];
+
+for (i = 0; i < lista.length; i++){
+    sumalista = sumalista + lista[i];
+    console.log(sumalista);
+    
+
 }
 
 
+const result = sumalista / lista.length;
 
+let p = document.getElementById("answ");
+p.innerText =  `valor de "i" = ${i} y valor de sumalista = ${sumalista} y prodmedio = ${result}`;
 
-
-
+// const sumalista = lista.reduce(
+//     function (valorAcumulado = 0, nuevoElemento){
+//         return valorAcumulado + nuevoElemento;
+//     }
+// );
 
 
 // const descuento = function(producto, id){
