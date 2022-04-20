@@ -46,12 +46,13 @@
 let sumalista= 0;
 const lista = [1, 590, 2, 3, 1, 4, 5,];
 
-for (i = 0; i < lista.length; i++){
-    sumalista = sumalista + lista[i];
-    console.log(sumalista);
-    
+// for (i = 0; i < lista.length; i++){
+//     sumalista = sumalista + lista[i];
+//     console.log(sumalista);
+// }
 
-}
+
+
 
 
 const result = sumalista / lista.length;
