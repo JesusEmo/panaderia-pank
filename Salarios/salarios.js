@@ -30,4 +30,12 @@ colombia.push({name: "ana", salary: 200});
 colombia.push({name: "julia", salary: 200});
 colombia.push({name: "pupi", salary: 200});
 
-let colombiaNames = colombia.filter(names => colombia.name);
+
+const colombiaNames = colombia.map((el) => {return el.name});
+console.log(colombiaNames)
+
+const colombiaSalary = colombia.map((el) => {return el.salary});
+
+const colombiaMaxSalary = colombia.filter()
+
+
