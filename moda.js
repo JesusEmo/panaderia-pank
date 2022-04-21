@@ -43,21 +43,21 @@
 
 
 
-let sumalista= 0;
-const lista = [1, 590, 2, 3, 1, 4, 5,];
+// let sumalista= 0;
 
-for (i = 0; i < lista.length; i++){
-    sumalista = sumalista + lista[i];
-    console.log(sumalista);
+
+// for (i = 0; i < lista.length; i++){
+//     sumalista = sumalista + lista[i];
+//     console.log(sumalista);
     
 
-}
+// }
 
 
-const result = sumalista / lista.length;
+// const result = sumalista / lista.length;
 
-let p = document.getElementById("answ");
-p.innerText =  `valor de "i" = ${i} y valor de sumalista = ${sumalista} y prodmedio = ${result}`;
+// let p = document.getElementById("answ");
+// p.innerText =  `valor de "i" = ${i} y valor de sumalista = ${sumalista} y prodmedio = ${result}`;
 
 // const sumalista = lista.reduce(
 //     function (valorAcumulado = 0, nuevoElemento){
@@ -74,3 +74,9 @@ p.innerText =  `valor de "i" = ${i} y valor de sumalista = ${sumalista} y prodme
 //     }
 // p.innerText = `precio total ${precioProducto}`;
 // }
+
+
+
+const lista = [1, 590, 2, 3, 1, 4, 5,];
+
+const listaReducida = lista.reduce(
