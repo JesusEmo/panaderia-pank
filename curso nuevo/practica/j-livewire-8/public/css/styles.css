@@ -82,15 +82,15 @@ body {
     position: fixed;
     z-index: 20;
 }
-
-.sidebar {
+/* 
+ .sidebar { 
     height: 100%;
     width: 200px;
     background-color: black;
     position: fixed;
     z-index: 999;
     
-}
+} */
 
 .b-black {
     color:black;

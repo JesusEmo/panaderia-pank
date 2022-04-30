@@ -1,33 +1,56 @@
 
 
 
-// para el json
-const productosEnVenta = [{
-    name: 'sanguchito',
-    precio: 200,
-    vence: '20/10/2022',
-},
-{
-    name: 'pan',
-    precio: 80,
-    vence: '20/10/2022'
-},
-{
-    name: 'magdalena',
-    precio: 200,
-    vence: '20/10/2022'
-},
-];
 
-function comprar(item){
+const productos = [{name: "pan", price: 200, expire: "20/12/2020"},{name: "magdalena", price: 100, expire:"20/11/2020"}, {name: "sandwich"} ];
+
+
+const buy = document.getElementById("buy");
+
+let item = productos.filter( producto => productos.name );
+
+
+
+
+
+
+
+
+
+
+
+
+function comprar(item) {
     var precioParrafo = document.getElementById("precioParrafo");
-    const 
+    const
 
-    if(item = "sanguchito"){
+    if (item = "sanguchito") {
         precio.innerText = `el precio es ${precio}`
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
